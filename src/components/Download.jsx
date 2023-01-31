@@ -10,17 +10,13 @@ const Download = () => {
           <h1 className={`${styles.h1Text} ${styles.blackText}`}>View the project!</h1>
           <p className={`${styles.pText} ${styles.blackText}`}>Scan the QR Code below with your mobile device to view this project.</p>
         </div>
-                
-            <div className={`flex 
-       
-         mt-5`}>
+            <div className={`flex mt-5`}>
                 <img src={assets.qr} alt="Download Now" className={`${styles.qrImg}`} />
             </div>
         <div className={`${styles.flexCenter}`}>
           <img src={assets.scene} alt="Download" className={`${styles.fullImg}`}/>
         </div>
       </div>
-
     </div>
   )
 }
